@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-jit-mode",
+  "version": "1.0.0",
+  "description": "Tailwindcss is a utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
+  "license": "MIT",
+  "repository": "https://github.com/squarextech/tailwindcss-jit.git",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "laravel-mix": "^6.0.31"
+  }
+}
